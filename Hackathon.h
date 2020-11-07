@@ -10,7 +10,7 @@ class battleship{
     private:
     void setup_player();
     void setup_oponent();
-    int board[10][10];
+    char my_board[10][10];
 
 
 };

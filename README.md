@@ -5,4 +5,4 @@ Our Fall Hacks Project!
 Team Members : 
 Hun Seol, Jordan Kwok, Kayla Yu, Denise Siu
 
-jklk
+Project Idea:

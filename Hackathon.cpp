@@ -20,17 +20,20 @@ void battleship::setup_player(){
 };
 
 void battleship::print_board(){
+    cout << "   ";
     for (int i = 0; i < 10; i++){
         cout << setw(3) << i;
     }
     cout << endl << endl;
 
+    cout  << setw(3) << left << 0;
+
     for(int i = 0; i<10; i++){
         for (int j = 0; j<10; j++){
-            cout << setw(3) << board[i][j];
+            cout << setw(3) << right << board[i][j];
             if(j == 9){
                 cout << endl;
-                cout << i;
+                cout << left <<setw(3) << i+1;
             }
         }
     }

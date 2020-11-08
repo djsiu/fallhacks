@@ -210,8 +210,9 @@ battleship::~battleship(){
 
 };
 
-int main(){
-    battleship b;
+//If run without main.cpp uncomment this part
+// int main(){
+//     battleship b;
     
-    return 0;
-}
+//     return 0;
+// }

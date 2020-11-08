@@ -1,19 +1,19 @@
 
 # Our Fall Hacks Project!
 
-#### Team Members :
+### Team Members :
 Hun Seol, Jordan Kwok, Kayla Yu, Denise Siu
 
 
-#### Team name: 
+### Team name: 
 !false story
 
 
-#### Project Name: 
+### Project Name: 
 Games Outlet
 
 
-#### Our idea : 
+### Our idea : 
 We created a series of small games that can be played in the terminal.
 * Battleship
 * Hangman
@@ -22,7 +22,7 @@ We created a series of small games that can be played in the terminal.
 * Story Time
 
 
-#### Instructions :
+### Instructions :
 Run the main.cpp and you will be prompted to choose a game.
 
 

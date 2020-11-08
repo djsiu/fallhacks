@@ -4,9 +4,9 @@
 #include <stdlib.h>
 #include <iostream>
 #include <vector>
-#include <cstdlib> //for rand
+#include <cstdlib> // for rand
 
-#include "Battleship.h"
+#include "Battleship.cpp"
 #include "cards.h"
 
 using namespace std;
@@ -34,15 +34,9 @@ void user_interface(){
                 return;
             }case 4 :{
                 cout << "Playing War ..." << endl;
-                Deck my_deck;
-
-                cout << "this is a deck of cards: " << endl;
-                initialize(my_deck);
-                print_deck(my_deck); 
                 return;    
             }case 5 :{
                 cout << "Playing Story Time ..." << endl;
-
                 return;
             }case 6 :{
                 cout << "Thank you for playing, see you next time." << endl;
@@ -59,5 +53,4 @@ void user_interface(){
 
 int main(){
     user_interface();
-    cout << "this is the main file" << endl;
 }

@@ -210,8 +210,11 @@ battleship::~battleship(){
 
 };
 
+/*
+
 int main(){
     battleship b;
     
     return 0;
 }
+*/

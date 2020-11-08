@@ -15,14 +15,16 @@ using namespace std;
 enum Rank { one, two, three, four, five, six, seven, eight, nine, ten, jack, queen, king };
 enum Suit { spades, hearts, diamonds, clubs };
 
-struct Card {
+struct Card 
+{
     Rank rank;
     Suit suit;
     int num_suits = 4;
     int num_ranks = 13;
 };
 
-struct Deck {
+struct Deck 
+{
     vector<Card> cards;
     string card_back;
     int max_deck_size = 52;
@@ -32,18 +34,29 @@ void initialize(Deck&);
 void print_deck(const Deck&);
 void print_card(const Card&);
 void shuffle(Deck&);
+bool deal_cards(Deck&, vector<Card>&, vector<Card>&, int);
+void print_hand(const vector<Card>&);
 
-int main() {
+int main() 
+{
+    Deck my_deck;
 
     cout << "this is a deck of cards: " << endl;
-
-    Deck my_deck;
     initialize(my_deck);
     print_deck(my_deck);
+
     cout << "\nshuffling deck..." << endl;
     shuffle(my_deck);
     print_deck(my_deck);
 
+    vector<Card> hand1;
+    vector<Card> hand2;
+    deal_cards(my_deck, hand1, hand2, 7);
+
+    cout << "\nHand 1" << endl;
+    print_hand(hand1);
+    cout << "\nHand 2" << endl;
+    print_hand(hand2); 
 }
 
 //initializing a deck of cards
@@ -84,4 +97,28 @@ void shuffle(Deck& deck)
         deck.cards.erase(deck.cards.begin() + rand_index);
     }
     deck = shuffled;
+}
+
+//deal the cards to hands and delete the cards from the deck
+bool deal_cards(Deck& deck, vector<Card>& hand1, vector<Card>& hand2, int num_cards) 
+{
+    if(deck.cards.size() <2*num_cards) { //checking if we have enough cards for all the players
+        return false;
+    }
+    
+    for(int card = 0; card < num_cards; card++) {
+        hand1.push_back(deck.cards[0]);
+        deck.cards.erase(deck.cards.begin());
+        hand2.push_back(deck.cards[0]);
+        deck.cards.erase(deck.cards.begin());
+    }
+    return true; //hand successfully created
+}
+
+//printing a hand of cards
+void print_hand(const vector<Card>& hand) 
+{
+    for(Card c : hand) {
+        print_card(c);
+    }
 }

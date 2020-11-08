@@ -39,7 +39,12 @@ $ ./main
 n/a
 
 ## War :
-n/a
+Play against a bot to see who can randomly get the higher card!<br>
+*note: for the suits
+    * 0 -> diamonds
+    * 1 -> clubs
+    * 2 -> hearts
+    * 3 -> spades
 
 ## Jelly Beans :
 Guess the number of jelly beans!

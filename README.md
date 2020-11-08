@@ -17,17 +17,27 @@ We created a series of small games that can be played in the terminal.
 * Jelly Beans
 * Story Time
 
+<<<<<<< HEAD
 
 #### Instructions :
 Run the main.cpp and you will be prompted to choose a game.
 
 # Battleship :
+=======
+#### Instructions :
+Run the main.cpp and you will be prompted to choose a game.
+
+# Battleship
+=======
+
+>>>>>>> 4ac0c11e48e52f36fcab8d23a4739c6f6ffab605
 1. Start by entering an x and y coordinate separated by a space to place your ship on the board.
 2. The second coordinate must be adjacent to the initial in order to complete the 2 unit long ship.
 3. After placing 2 ships, your opponent (the program) will do the same.
 4. Your goal is to "sink" both of your opponents ships by entering coordinates to attack.
 5. If you sink your opponents ships before (the program) sinks yours, you win.
 6. The battleships are at (1,1)(2,1) and (8,9)(9,9) incase you get frustrated, a rand function can be enabled to randomize the placement of the opponents ships
+<<<<<<< HEAD
 
 # Hangman :
 
@@ -43,3 +53,24 @@ Guess the number of jelly beans!
 # Story Time :
 Type in words when you are prompted to and wait to see your story revealed!
 
+=======
+
+# Hangman :
+=======
+n/a
+
+# War :
+=======
+n/a
+
+# Jelly Beans :
+=======
+Guess the number of jelly beans!
+
+# Story Time :
+=======
+Type in words when you are prompted to and wait to see your story revealed!
+
+=======
+
+>>>>>>> 4ac0c11e48e52f36fcab8d23a4739c6f6ffab605

@@ -11,3 +11,5 @@ We created a series of small games that can be played in the terminal.
 * Jelly Beans
 * Story Time
 
+#### Instrcutions :
+Run the main.cpp and you will be prompted to choose a game.

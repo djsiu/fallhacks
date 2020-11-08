@@ -9,6 +9,7 @@
 #include "Battleship.cpp"
 #include "cards.h"
 #include "JellyBeans.h"
+#include "StoryTime.h"
 
 using namespace std;
 void user_interface(){
@@ -39,6 +40,7 @@ void user_interface(){
                 return;    
             }case 5 :{
                 cout << "Playing Story Time ..." << endl;
+                storyTime();
                 return;
             }case 6 :{
                 cout << "Thank you for playing, see you next time." << endl;

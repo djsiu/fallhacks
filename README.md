@@ -23,8 +23,10 @@ We created a series of small games that can be played in the terminal.
 
 
 ### Instructions :
-Run the main.cpp and you will be prompted to choose a game.
-
+Run the main.cpp using g++ and you will be prompted to choose a game.
+<br>
+$ g++ main.cpp -o main
+$ ./main
 
 ## Battleship
 1. Start by entering an x and y coordinate separated by a space to place your ship on the board.

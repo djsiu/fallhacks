@@ -3,6 +3,12 @@
 #### Team Members :
 Hun Seol, Jordan Kwok, Kayla Yu, Denise Siu
 
+#### Team name: 
+!false story
+
+#### Project Name: 
+Games Outlet
+
 #### Our idea : 
 We created a series of small games that can be played in the terminal.
 * Battleship
@@ -11,13 +17,24 @@ We created a series of small games that can be played in the terminal.
 * Jelly Beans
 * Story Time
 
+<<<<<<< HEAD
 # First Game :
 Battleship
+=======
+#### Instructions :
+Run the main.cpp and you will be prompted to choose a game.
+
+# Battleship :
+>>>>>>> df55e957fb5a732cd28d955df6ef6823598ce0a0
 1. Start by entering an x and y coordinate separated by a space to place your ship on the board.
 2. The second coordinate must be adjacent to the initial in order to complete the 2 unit long ship.
 3. After placing 2 ships, your opponent (the program) will do the same.
 4. Your goal is to "sink" both of your opponents ships by entering coordinates to attack.
 5. If you sink your opponents ships before (the program) sinks yours, you win.
 6. The battleships are at (1,1)(2,1) and (8,9)(9,9) incase you get frustrated, a rand function can be enabled to randomize the placement of the opponents ships
+<<<<<<< HEAD
 #### Instructions :
 Run the main.cpp and you will be prompted to choose a game.
+=======
+
+>>>>>>> df55e957fb5a732cd28d955df6ef6823598ce0a0

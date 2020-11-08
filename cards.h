@@ -3,7 +3,6 @@
 // program creating with help from https://www.youtube.com/watch?v=iMSMVqTlvjM
 //
 
-
 using std::string;
 using std::vector;
 
@@ -71,19 +70,19 @@ void initialize(Deck& deck)
     }
 }
 
+//prints a card
+void print_card(const Card& card) 
+{
+    cout << "Rank = " << card.rank << "  " 
+         << "Suit = " << card.suit << endl;
+}
+
 //prints the cards in the deck
 void print_deck(const Deck& deck) 
 {
     for(Card c : deck.cards) {
         print_card(c);
     }
-}
-
-//prints a card
-void print_card(const Card& card) 
-{
-    cout << "Rank = " << card.rank << "  " 
-         << "Suit = " << card.suit << endl;
 }
 
 //shuffles the deck of cards

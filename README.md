@@ -1,4 +1,3 @@
-# fallhacks
 
 # Our Fall Hacks Project!
 #### Team Members :

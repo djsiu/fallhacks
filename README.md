@@ -45,6 +45,6 @@ n/a
 Guess the number of jelly beans!
 
 ## Story Time :
-Type in words when you are prompted to and wait to see your story revealed!
+Choose words to complete a story!
 
 

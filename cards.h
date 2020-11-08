@@ -1,11 +1,8 @@
-//cards.cpp
+//cards.h
 
 // program creating with help from https://www.youtube.com/watch?v=iMSMVqTlvjM
 //
 
-#include <iostream>
-#include <vector>
-#include <cstdlib> //for rand
 
 using std::string;
 using std::vector;
@@ -30,6 +27,7 @@ struct Deck
     int max_deck_size = 52;
 };
 
+/*
 void initialize(Deck&);
 void print_deck(const Deck&);
 void print_card(const Card&);
@@ -58,6 +56,7 @@ int main()
     cout << "\nHand 2" << endl;
     print_hand(hand2); 
 }
+*/
 
 //initializing a deck of cards
 void initialize(Deck& deck) 

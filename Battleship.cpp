@@ -1,4 +1,4 @@
-#include "Hackathon.h"
+#include "Battleship.h"
 using namespace std;
 
 battleship::battleship(){
@@ -38,7 +38,7 @@ battleship::battleship(){
         int x;
         while(!(cin >> x) || x!= 1){
             if(x==2){
-                exit(2);
+                return;
             }
             cout << "Enter 1 to end your turn" << endl << endl << endl;
         }
@@ -168,7 +168,7 @@ void battleship::player_attack(){
     }
     if(hitCount == 4){
         cout << "-----------------Congradulations you win!-------------------" << endl;
-        exit(1);
+        return;
     }
     print_atk_board();
 };

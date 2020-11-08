@@ -1,12 +1,17 @@
-# fallhacks
 
 # Our Fall Hacks Project!
 #### Team Members :
-###### Hun Seol, Jordan Kwok, Kayla Yu, Denise Siu
+Hun Seol, Jordan Kwok, Kayla Yu, Denise Siu
 
 #### Our idea : 
 We created a series of small games that can be played in the terminal.
+* Battleship
+* Hangman
+* War
+* Jelly Beans
+* Story Time
 
+<<<<<<< HEAD
 # First Game :
 Battleship
 1. Start by entering an x and y coordinate separated by a space to place your ship on the board.
@@ -15,3 +20,7 @@ Battleship
 4. Your goal is to "sink" both of your opponents ships by entering coordinates to attack.
 5. If you sink your opponents ships before (the program) sinks yours, you win.
 6. The battleships are at (1,1)(2,1) and (8,9)(9,9) incase you get frustrated, a rand function can be enabled to randomize the placement of the opponents ships
+=======
+#### Instructions :
+Run the main.cpp and you will be prompted to choose a game.
+>>>>>>> d5752b8fe4267deb6e553921c65f582487898011

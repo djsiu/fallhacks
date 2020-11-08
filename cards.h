@@ -38,24 +38,25 @@ int main()
 {
     Deck my_deck;
 
-    cout << "this is a deck of cards: " << endl;
+    //cout << "this is a deck of cards: " << endl;
     initialize(my_deck);
-    print_deck(my_deck);
+    //print_deck(my_deck);
 
-    cout << "\nshuffling deck..." << endl;
+    //cout << "\nshuffling deck..." << endl;
     shuffle(my_deck);
-    print_deck(my_deck);
+    //print_deck(my_deck);
 
     vector<Card> hand1;
     vector<Card> hand2;
     deal_cards(my_deck, hand1, hand2, 7);
 
-    cout << "\nHand 1" << endl;
-    print_hand(hand1);
-    cout << "\nHand 2" << endl;
-    print_hand(hand2); 
+    //cout << "\nHand 1" << endl;
+    //print_hand(hand1);
+    //cout << "\nHand 2" << endl;
+    //print_hand(hand2); 
 }
 */
+
 
 //initializing a deck of cards
 void initialize(Deck& deck) 
@@ -119,4 +120,19 @@ void print_hand(const vector<Card>& hand)
     for(Card c : hand) {
         print_card(c);
     }
+}
+
+void playWar(vector<Card>& deck, vector<Card>& hand1, vector<Card>& hand2) 
+{
+    initialize(deck);
+    shuffle(deck);
+    deal_cards(deck, hand1, hand2, 1);
+
+    cout << "Welcome to the game of war!" << endl;
+    cout << "Press enter to flip over your first card!" << endl;
+    getch();
+    
+    cout << "You: " << print_hand(hand1) << 
+            "Bot: " << print_hand(hand2) << endl;
+
 }

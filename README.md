@@ -20,7 +20,7 @@ We created a series of small games that can be played in the terminal.
 #### Instructions :
 Run the main.cpp and you will be prompted to choose a game.
 
-# Battleship
+## Battleship
 1. Start by entering an x and y coordinate separated by a space to place your ship on the board.
 2. The second coordinate must be adjacent to the initial in order to complete the 2 unit long ship.
 3. After placing 2 ships, your opponent (the program) will do the same.
@@ -28,16 +28,16 @@ Run the main.cpp and you will be prompted to choose a game.
 5. If you sink your opponents ships before (the program) sinks yours, you win.
 6. The battleships are at (1,1)(2,1) and (8,9)(9,9) incase you get frustrated, a rand function can be enabled to randomize the placement of the opponents ships
 
-# Hangman :
+## Hangman :
 n/a
 
-# War :
+## War :
 n/a
 
-# Jelly Beans :
+## Jelly Beans :
 Guess the number of jelly beans!
 
-# Story Time :
+## Story Time :
 Type in words when you are prompted to and wait to see your story revealed!
 
 

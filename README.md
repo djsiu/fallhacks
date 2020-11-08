@@ -1,13 +1,17 @@
 
 # Our Fall Hacks Project!
+
 #### Team Members :
 Hun Seol, Jordan Kwok, Kayla Yu, Denise Siu
+
 
 #### Team name: 
 !false story
 
+
 #### Project Name: 
 Games Outlet
+
 
 #### Our idea : 
 We created a series of small games that can be played in the terminal.
@@ -17,8 +21,10 @@ We created a series of small games that can be played in the terminal.
 * Jelly Beans
 * Story Time
 
+
 #### Instructions :
 Run the main.cpp and you will be prompted to choose a game.
+
 
 ## Battleship
 1. Start by entering an x and y coordinate separated by a space to place your ship on the board.

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+void jellyBeans() {
     cout << "Hello! How many jelly beans to you think there are in the jar?. " << endl;
     cout << "The number is somewhere between 1 and 100" << endl;
     cout << "Enter a number from 1 to 100." << endl;

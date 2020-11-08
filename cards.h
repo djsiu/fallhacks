@@ -142,6 +142,19 @@ void playWar(Deck& deck, vector<Card>& hand1, vector<Card>& hand2)
     cout << "Bot: "; 
     print_hand(hand2);
 
+    if (hand1[0].rank > hand2[0].rank) 
+        cout << "You win!" << endl;
+    else if (hand1[0].rank < hand2[0].rank)
+        cout << "You lose!" << endl;
+    else if (hand1[0].rank == hand2[0].rank) {
+        if (hand1[0].suit > hand2[0].suit) {
+            cout << "You win!" << endl;
+        }
+        else {
+            cout << "You lose!" << endl;
+        }
+    }
+        
 
 
 }

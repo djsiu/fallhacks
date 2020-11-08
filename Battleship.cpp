@@ -206,11 +206,9 @@ void battleship::opponent_attack(){
     print_board();
 };
 
-
 battleship::~battleship(){
 
 };
-
 
 int main(){
     battleship b;

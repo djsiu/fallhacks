@@ -3,6 +3,12 @@
 // program creating with help from https://www.youtube.com/watch?v=iMSMVqTlvjM
 //
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <vector>
+#include <cstdlib> // for rand
+
 using std::string;
 using std::vector;
 
@@ -74,7 +80,7 @@ void initialize(Deck& deck)
 //prints a card
 void print_card(const Card& card) 
 {
-    cout << "Rank = " << card.rank << "  " 
+    cout << "Number = " << card.rank << "  " 
          << "Suit = " << card.suit << endl;
 }
 
@@ -122,17 +128,20 @@ void print_hand(const vector<Card>& hand)
     }
 }
 
-void playWar(vector<Card>& deck, vector<Card>& hand1, vector<Card>& hand2) 
+void playWar(Deck& deck, vector<Card>& hand1, vector<Card>& hand2) 
 {
     initialize(deck);
     shuffle(deck);
     deal_cards(deck, hand1, hand2, 1);
+    char ignore;
 
     cout << "Welcome to the game of war!" << endl;
-    cout << "Press enter to flip over your first card!" << endl;
-    getch();
-    
-    cout << "You: " << print_hand(hand1) << 
-            "Bot: " << print_hand(hand2) << endl;
+    cout << "Ready? Set. GO!" << endl;
+    cout << "You: ";
+    print_hand(hand1);
+    cout << "Bot: "; 
+    print_hand(hand2);
+
+
 
 }

@@ -37,6 +37,10 @@ void user_interface(){
                 return;
             }case 4 :{
                 cout << "Playing War ..." << endl;
+                Deck my_deck;
+                vector<Card> hand1;
+                vector<Card> hand2;
+                playWar(my_deck, hand1, hand2);
                 return;    
             }case 5 :{
                 cout << "Playing Story Time ..." << endl;

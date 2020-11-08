@@ -23,9 +23,8 @@ We created a series of small games that can be played in the terminal.
 
 
 ### Instructions :
-Run the main.cpp using g++ and you will be prompted to choose a game.
-<br>
-$ g++ main.cpp -o main
+Run the main.cpp using g++ and you will be prompted to choose a game.<br>
+$ g++ main.cpp -o main<br>
 $ ./main
 
 ## Battleship

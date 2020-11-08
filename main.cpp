@@ -3,7 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include <vector>
+#include <cstdlib> //for rand
+
 #include "Battleship.h"
+#include "cards.h"
 
 using namespace std;
 void user_interface(){
@@ -23,15 +27,21 @@ void user_interface(){
                 battleship b;
                 return;
             }case 2 :{
-                
+                cout << "Sorry, Hangman is out of order! Please select another game." << endl;
                 return;
             }case 3 :{
-                
+                cout << "Playing Jelly Beans ..." << endl;
                 return;
             }case 4 :{
+                cout << "Playing War ..." << endl;
+                Deck my_deck;
 
+                cout << "this is a deck of cards: " << endl;
+                initialize(my_deck);
+                print_deck(my_deck); 
                 return;    
             }case 5 :{
+                cout << "Playing Story Time ..." << endl;
 
                 return;
             }case 6 :{
